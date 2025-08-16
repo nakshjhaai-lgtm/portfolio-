@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[YOUR NAME] - Logo Designer & Prompt Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Lato&display=swap" rel="stylesheet">
+    <style>
+        /* Reset & Basic Styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Lato', sans-serif; line-height: 1.6; color: #333; scroll-behavior: smooth; }
+        a { text-decoration: none; color: inherit; }
+
+        /* Sections */
+        section { padding: 80px 20px; }
+        h1, h2, h3 { font-family: 'Montserrat', sans-serif; text-transform: uppercase; }
+        h1 { font-size: 2.5rem; margin-bottom: 20px; }
+        h2 { font-size: 2rem; margin-bottom: 20px; }
+        p { margin-bottom: 20px; }
+
+        /* Hero Section */
+        #hero { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; background: linear-gradient(to right, #f5f5f5, #e0e0e0); text-align: center; }
+        #hero h1 { font-size: 3rem; margin-bottom: 10px; }
+        #hero h2 { font-size: 1.5rem; margin-bottom: 20px; }
+        .btn { padding: 12px 30px; background-color: #ff7f50; color: #fff; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; transition: background 0.3s; }
+        .btn:hover { background-color: #ff5722; }
+
+        /* About Me */
+        #about { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 40px; background: #fff; }
+        #about .text { flex: 1 1 400px; }
+        #about img { width: 250px; border-radius: 50%; }
+
+        /* Portfolio */
+        #portfolio { background: #f5f5f5; text-align: center; }
+        .projects { display: flex; flex-wrap: wrap; gap: 40px; justify-content: center; }
+        .project-card { background: #fff; padding: 20px; border-radius: 10px; width: 300px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.3s; }
+        .project-card:hover { transform: translateY(-5px); }
+        .project-card img { width: 100%; border-radius: 5px; margin-bottom: 15px; }
+
+        /* Services */
+        #services { background: #fff; text-align: center; }
+        .services-container { display: flex; flex-wrap: wrap; gap: 40px; justify-content: center; }
+        .service-card { background: #f5f5f5; padding: 20px; border-radius: 10px; width: 250px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .service-card h3 { margin-bottom: 10px; }
+
+        /* Contact */
+        #contact { background: #f0f0f0; text-align: center; }
+        form { display: flex; flex-direction: column; gap: 15px; max-width: 400px; margin: 0 auto; }
+        input, textarea { padding: 12px; border-radius: 5px; border: 1px solid #ccc; font-family: inherit; font-size: 1rem; }
+        textarea { resize: vertical; min-height: 120px; }
+
+        /* Footer */
+        footer { text-align: center; padding: 20px; background: #333; color: #fff; }
+        footer a { color: #ff7f50; margin: 0 10px; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            #about { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>HI, I’M [YOUR NAME]</h1>
+        <h2>LOGO DESIGNER & PROMPT ENGINEER</h2>
+        <p>I CREATE MODERN LOGOS AND AI PROMPTS THAT BRING BRANDS TO LIFE.</p>
+        <a href="#portfolio" class="btn">VIEW MY WORK</a>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="text">
+            <h2>ABOUT ME</h2>
+            <p>I’M A PASSIONATE DESIGNER AND PROMPT ENGINEER. I DELIVER POLISHED, PROFESSIONAL VISUALS THAT TELL A BRAND STORY. I ENJOY TURNING IDEAS INTO MODERN DESIGNS THAT RESONATE WITH AUDIENCES.</p>
+            <ul>
+                <li>Logo Design: Figma, Illustrator, Photoshop</li>
+                <li>Prompt Engineering: ChatGPT, MidJourney</li>
+                <li>Branding & Concept Ideation</li>
+            </ul>
+        </div>
+        <img src="[YOUR_AVATAR_IMAGE_URL]" alt="Avatar">
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>MY WORK</h2>
+        <div class="projects">
+            <!-- Project Card Example -->
+            <div class="project-card">
+                <img src="[LOGO_IMAGE_1]" alt="XYZ Café Logo">
+                <h3>XYZ Café</h3>
+                <p>XYZ CAFÉ NEEDED A MODERN, MINIMAL LOGO THAT APPEALS TO YOUNG COFFEE LOVERS.</p>
+                <p>USED WARM COLORS AND GEOMETRIC SHAPES TO CREATE A FRESH, MODERN IDENTITY. READY FOR SOCIAL MEDIA AND PACKAGING.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="[LOGO_IMAGE_2]" alt="Luna Yoga Studio Logo">
+                <h3>Luna Yoga Studio</h3>
+                <p>NEEDED A CALM, MODERN LOGO TO REFLECT MINDFULNESS AND WELLNESS.</p>
+                <p>USED SOFT PASTEL COLORS AND CIRCLE GEOMETRY TO CREATE A SERENE BRAND IMAGE, READY FOR WEBSITE AND SOCIAL MEDIA.</p>
+            </div>
+
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>SERVICES I OFFER</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <h3>Logo & Brand Identity Design</h3>
+                <p>Creating logos that define your brand identity and make it memorable.</p>
+            </div>
+            <div class="service-card">
+                <h3>AI Prompt Engineering</h3>
+                <p>Crafting effective prompts for text and image generation using AI tools.</p>
+            </div>
+            <div class="service-card">
+                <h3>Visual Branding Consultation</h3>
+                <p>Guidance on colors, typography, and overall visual brand identity.</p>
+            </div>
+            <div class="service-card">
+                <h3>Custom Graphic Design Requests</h3>
+                <p>Unique designs for personal or business projects tailored to your needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>LET’S WORK TOGETHER</h2>
+        <p>READY TO TAKE YOUR BRAND TO THE NEXT LEVEL? GET IN TOUCH AND LET’S CREATE SOMETHING AMAZING TOGETHER.</p>
+        <form action="mailto:yourname@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">SEND MESSAGE</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Connect with me: 
+            <a href="[LINKEDIN_URL]" target="_blank">LinkedIn</a> | 
+            <a href="[BEHANCE_URL]" target="_blank">Behance</a> | 
+            <a href="[DRIBBBLE_URL]" target="_blank">Dribbble</a>
+        </p>
+        <p>&copy; 2025 [YOUR NAME]. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
